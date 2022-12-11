@@ -55,8 +55,8 @@ Now add 2 webhooks for events:
 
 | NAME        | EVENT                  | URL                                                                    | LAST TRIGGERED |
 | ----------- | ---------------------- | ---------------------------------------------------------------------- | -------------- |
-| Ping Worker | Post published         | https://<YOUR-WORKER-SUBDOMAIN>.workers.dev/<ZONE_ID>/postPublished | Not triggered  |
-| Ping Worker | Published post updated | https://<YOUR-WORKER-SUBDOMAIN>.workers.dev/<ZONE_ID>/postUpdated  | Not triggered  |
+| Ping Worker | Post published         | <https://YOUR-WORKER-SUBDOMAIN.workers.dev/ZONE_ID/postPublished> | Not triggered  |
+| Ping Worker | Published post updated | <https://YOUR-WORKER-SUBDOMAIN.workers.dev/<ZONE_ID/postUpdated>  | Not triggered  |
 
 <!-- ### ⚙️ Configure Ghost caching -->
 
