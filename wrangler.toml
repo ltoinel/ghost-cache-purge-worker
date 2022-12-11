@@ -4,6 +4,3 @@ main = "src/index.js"
 
 workers_dev = true
 compatibility_date = "2022-05-12"
-
-[vars]
-GHOST_URL = "https://blog.paesa.es/"
