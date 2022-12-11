@@ -18,6 +18,7 @@ This fork supports multiple Ghost blogs in different Cloudflare Zones ID with a 
 ### 🔑 Create an API token on Cloudflare.
 
 Go to your Cloudflare account and create an API token with the `Zone.Cache Purge` permission.
+Do no fix IP filtering, the IP used by Cloudflare for the workers is not clearly describe.
 
 ### 📦Install Wrangler
 
@@ -41,7 +42,7 @@ Set the `CF_API_TOKEN` secret with the API token previously created :
 wrangler secret put CF_API_TOKEN
 ```
 
-Publish to Cloudflare:
+Publish the script to Cloudflare:
 
 ```shell
 wrangler publish
@@ -60,9 +61,9 @@ Now add 2 webhooks for events:
 
 <!-- ### ⚙️ Configure Ghost caching -->
 
-### Check that everything works 
+### ✅ Check that everything works 
 
-Start by updating an existing post with a content. Check that the content appears on the Webpage.
+Start by updating an existing post with a new content. Check that the content appears on the Webpage.
 If you have any issue, you can enable the log with "Begin log Stream" button in the "log" tab.
 
 ## 📜 License
