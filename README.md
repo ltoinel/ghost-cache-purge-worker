@@ -1,6 +1,6 @@
 # ghost-cloudflare-cache-purge
 
-[![Deploy to Cloudflare Workers](https://github.com/milgradesec/ghost-cache-purge-worker/actions/workflows/deploy.yml/badge.svg)](https://github.com/milgradesec/ghost-cache-purge-worker/actions/workflows/deploy.yml)
+[![Deploy to Cloudflare Workers](https://github.com/ltoinel/ghost-cloudflare-cache-purge/actions/workflows/deploy.yml/badge.svg)](https://github.com/ltoinel/ghost-cloudflare-cache-purge/actions/workflows/deploy.yml)
 
 A Cloudflare Worker to purge cached pages when a post is published or updated on Ghost CMS.
 
