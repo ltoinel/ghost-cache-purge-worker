@@ -1,7 +1,5 @@
 # ghost-cloudflare-cache-purge
 
-[![Deploy to Cloudflare Workers](https://github.com/ltoinel/ghost-cloudflare-cache-purge/actions/workflows/deploy.yml/badge.svg)](https://github.com/ltoinel/ghost-cloudflare-cache-purge/actions/workflows/deploy.yml)
-
 A Cloudflare Worker to purge cached pages when a post is published or updated on Ghost CMS.
 
 ## ❓ Why
@@ -57,7 +55,7 @@ Now add 2 webhooks for events:
 | NAME        | EVENT                  | URL                                                                    | LAST TRIGGERED |
 | ----------- | ---------------------- | ---------------------------------------------------------------------- | -------------- |
 | Ping Worker | Post published         | <https://YOUR-WORKER-SUBDOMAIN.workers.dev/ZONE_ID/postPublished> | Not triggered  |
-| Ping Worker | Published post updated | <https://YOUR-WORKER-SUBDOMAIN.workers.dev/<ZONE_ID/postUpdated>  | Not triggered  |
+| Ping Worker | Published post updated | <https://YOUR-WORKER-SUBDOMAIN.workers.dev/ZONE_ID/postUpdated>  | Not triggered  |
 
 <!-- ### ⚙️ Configure Ghost caching -->
 
