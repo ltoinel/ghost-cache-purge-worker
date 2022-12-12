@@ -52,10 +52,10 @@ Go to Ghost admin Settings-->Integrations and create a new custom integration na
 
 Now add 2 webhooks for events:
 
-| NAME        | EVENT                  | URL                                                                    | LAST TRIGGERED |
-| ----------- | ---------------------- | ---------------------------------------------------------------------- | -------------- |
-| Ping Worker | Post published         | <https://YOUR-WORKER-SUBDOMAIN.workers.dev/ZONE_ID/postPublished> | Not triggered  |
-| Ping Worker | Published post updated | <https://YOUR-WORKER-SUBDOMAIN.workers.dev/ZONE_ID/postUpdated>  | Not triggered  |
+| NAME        | EVENT                  | URL                                                                    | 
+| ----------- | ---------------------- | ---------------------------------------------------------------------- |
+| Ping Worker | Post published         | <https://YOUR-WORKER-SUBDOMAIN.workers.dev/ZONE_ID/postPublished> | 
+| Ping Worker | Published post updated | <https://YOUR-WORKER-SUBDOMAIN.workers.dev/ZONE_ID/postUpdated>  | 
 
 <!-- ### ⚙️ Configure Ghost caching -->
 
