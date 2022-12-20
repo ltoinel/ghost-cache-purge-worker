@@ -81,6 +81,10 @@ You can overide this default behaviour by adding a JSON configuration block in t
 Start by updating an existing post with a new content. Check that the content appears on the Webpage.
 If you have any issue, you can enable the log with "Begin log Stream" button in the "log" tab.
 
+### 🔗 References
+
+* https://www.geeek.org/ghost-cloudflare-integration/
+
 ## 📜 License
 
 MIT License
