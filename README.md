@@ -1,10 +1,10 @@
 # ghost-cloudflare-cache-purge
 
-A Cloudflare Worker to purge cached pages when a post is published or updated from the Ghost CMS administration pages.
+A simple Cloudflare Worker to purge cached pages when a post is published or updated from the Ghost CMS administration pages.
 
 ## ❓ Why
 
-With this worker you can run your Ghost blog with a `Cache Everything` Page Rule on Cloudflare and serve all content (including HTML pages) from Cloudflare's cache.
+With this worker you can run your Ghost blog with a `Cache Everything` Page Rule on Cloudflare and serve all content (including HTML pages) from Cloudflare's cache. This allow you to reduce the resources used on your server and deliver pages more quickly with more scalability.
 
 When a post is published or updated a Ghost webhook will trigger this worker to purge that page from the Cloudflare cache.
 
@@ -81,7 +81,7 @@ You can overide this default behaviour by adding a JSON configuration block in t
 Start by updating an existing post with a new content. Check that the content appears on the Webpage.
 If you have any issue, you can enable the log with "Begin log Stream" button in the "log" tab.
 
-### 🔗 References
+## 🔗 References
 
 * https://www.geeek.org/ghost-cloudflare-integration/
 
