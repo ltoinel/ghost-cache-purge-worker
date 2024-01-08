@@ -36,7 +36,7 @@ async function handleRequest(request, env) {
   const body = await parseWebhookBody(request)
   const postURL = new URL(body.post.current.url)
   const rootURL = postURL.protocol + '//' + postURL.host
-  const sitemapURL = rootURL + '/sitemap.xml' 
+  const sitemapURL = rootURL + '/sitemap-posts.xml' 
 
   // We define the commmons URL to purge.
   var urlToPurge = [sitemapURL];
