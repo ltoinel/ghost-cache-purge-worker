@@ -9,8 +9,8 @@ With this worker you can run your Ghost blog with a `Cache Everything` Page Rule
 When a post is published or updated a Ghost webhook will trigger this worker to purge that page from the Cloudflare cache.
 
 This project is a fork of 'milgradesec/ghost-cache-purge-worker'.
-This fork supports multiple Ghost sites in different Cloudflare Zones ID. 
-The only settings to push is the API token to allow this Worker to clean the content cache.
+This fork __supports multiple Ghost sites__ in different __Cloudflare Zones ID__. 
+The only settings to push is the __API token__ to allow this Worker to clean the content cache.
 
 ## 📙 Usage
 
